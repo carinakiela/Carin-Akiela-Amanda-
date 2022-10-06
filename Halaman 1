@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Input Form</title>
+	<link rel="stylesheet" type="text/css" href="carinstyle.css">
+
+</head>
+<body>
+
+	<form action="carinoutput.php" method="get">
+	<center><table border="40">
+		<thead>
+			<th colspan="5">Peminjaman Produk</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td><center>Tipe Produk</center></td>
+				</tr>
+			</tr>	
+			<tr>
+				<td><center><select name="Tipe_produk" required="true"></center>
+					<option value="Alat Lab">Alat Lab</option>
+					<option value="Alat Olahraga">Alat Olahraga</option>
+				</select></td>
+			<tr>
+				<td><center>Nama Peminjam</center></td>
+			</tr>
+			<tr>
+				<td><center><input type="text" ></td></center>
+			<tr>
+				<td><center>Tanggal Peminjaman</center></td>
+			</tr>
+			<tr>
+				<td><center><input type="text" ></td></center>
+
+			<tr>
+				<td><center>Tanggal Pengembalian</center></td>
+			</tr>
+			<tr>
+				<td><center><input type="text" ></td></center>
+			<tr>
+				<tr><td colspan="3" class="tombol"><center><button>Kirim</button></center></td></tr>
+				
+			</tr>
+		</tbody>
+	</table></center>
+	</form>
+
+</body>
+</html>
