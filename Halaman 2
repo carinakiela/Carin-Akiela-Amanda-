@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Output Form</title>
+    <link rel="stylesheet" type="text/css" href="carinstyle.css">
+
+</head>
+<body>
+
+   <center><table border="40">
+        <caption><strong>Informasi Peminjaman Produk</strong></caption>
+        <tr>
+            <td>TIPE</td>
+            <td>:</td>
+            <td><code>TIPE PRODUK</code></td>
+        </tr>
+        <tr>
+            <td>TANGGAL PEMINJAMAN</td>
+            <td>:</td>
+            <td><code>TANGGAL</code></td>
+        </tr>
+        <tr>
+            <td>TANGGAL PENGEMBALIAN</td>
+            <td>:</td>
+            <td><code>TANGGAL</code></td>
+        </tr>
+       
+    </table></center>
+</body>
+</html>
